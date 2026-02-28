@@ -12,7 +12,7 @@ import Header from '../components/dashbord/Header';
 import MainGrid from '../components/dashbord/MainGrid';
 import SideMenu from '../components/dashbord/SideMenu';
 import AppTheme from '../theme/AppTheme';
-
+// ChartUserByCountry et mingrid
 import {
   chartsCustomizations,
   dataGridCustomizations,
@@ -32,7 +32,7 @@ export default function Dashboard(props: { disableCustomTheme?: boolean }) {
     <AppTheme {...props} themeComponents={xThemeComponents}>
       <CssBaseline enableColorScheme />
       <Box sx={{ display: 'flex' }}>
-        <SideMenu />
+        {/* <SideMenu /> */}
         <AppNavbar />
         {/* Main content */}
         <Box
